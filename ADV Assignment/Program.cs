@@ -124,11 +124,22 @@ s            .Value = "Hello";
             //What is the base class constraint? Write an example.
             // A base class constraint means that the generic type T must inherit from a specific base class.
             //  It is written using where T: BaseClass.
-          
+
             /*
               AnimalContainer<Dog> container = new AnimalContainer<Dog>();
               container.MakeEat(new Dog());
              * */
+            #endregion
+
+            #region Question12
+            //  How do you apply multiple constraints? Write an example.  
+
+            /*Multiple constraints mean applying more than one constraint to the same generic type T.
+              You can combine a base class, interface, and new() constraint.
+
+
+             * */
+
             #endregion
         }
     }
