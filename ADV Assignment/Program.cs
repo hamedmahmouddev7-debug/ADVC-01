@@ -184,6 +184,13 @@ s            .Value = "Hello";
              * Contravariance (in) → I<Base> can be assigned to I<Derived>.
             */
             #endregion
+
+            #region Question18
+            // How do static members work in generic types? 
+            /*
+             * In a generic class, each different type parameter has its own separate copy of static members.
+             */
+            #endregion
         }
     }
 }
