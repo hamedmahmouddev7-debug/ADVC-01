@@ -24,6 +24,16 @@ namespace ADV01
              
             */
             #endregion
+
+            #region Question03
+            //
+            /*
+             * Pair<int, string> pair = new Pair<int, string>(1, "Ahmed");
+
+                 Console.WriteLine(pair.Key);
+                 Console.WriteLine(pair.Value);
+             */
+            #endregion
         }
     }
 }
