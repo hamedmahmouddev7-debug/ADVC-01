@@ -21,7 +21,7 @@ namespace ADV01
                   container.Add(10);
 
                    Console.WriteLine(container.Get());
-             
+
             */
             #endregion
 
@@ -32,6 +32,26 @@ namespace ADV01
 
                  Console.WriteLine(pair.Key);
                  Console.WriteLine(pair.Value);
+             */
+            #endregion
+
+            #region Question04
+            //  What is a generic method? Write Swap<T> method. 
+            /* A generic method is a method that uses a type parameter such as T, allowing the same method to work with different data types.
+
+             static void Swap<T>(ref T a, ref T b)
+               {
+                  T temp = a;
+                  a = b;
+                  b = temp;
+               }
+                  int x = 10;
+                  int y = 20;
+                  
+                  Swap(ref x, ref y);
+                  
+                  Console.WriteLine(x);
+                  Console.WriteLine(y);
              */
             #endregion
         }
