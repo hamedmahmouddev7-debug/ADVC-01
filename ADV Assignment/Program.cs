@@ -149,6 +149,21 @@ s            .Value = "Hello";
              * */
 
             #endregion
+
+            #region Question14
+            //Write a SafeList<T> that returns default when the index is invalid. 
+            /*
+             * SafeList<int> numbers = new SafeList<int>();
+
+               numbers.Add(10);
+               numbers.Add(20);
+               
+               Console.WriteLine(numbers.Get(0));  // 10
+               Console.WriteLine(numbers.Get(5));  // 0
+            */
+            #endregion
+
+          
         }
     }
 }
