@@ -191,6 +191,13 @@ s            .Value = "Hello";
              * In a generic class, each different type parameter has its own separate copy of static members.
              */
             #endregion
+
+            #region Question19
+            //How can you inherit from a generic class? 
+            /*
+             * You can inherit from a generic class by specifying the type parameter when creating the derived class.
+             */
+            #endregion
         }
     }
 }
