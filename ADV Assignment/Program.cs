@@ -169,6 +169,13 @@ s            .Value = "Hello";
              * Covariance allows you to use a more derived type where a base type is expected, mainly with generic interfaces and delegates.
              */
             #endregion
+
+            #region Question16
+            // What is contravariance? Explain the 'in' keyword. 
+            /*
+             *Contravariance allows you to use a base type where a derived type is expected, mainly with generic interfaces and delegates.
+             */
+            #endregion
         }
     }
 }
