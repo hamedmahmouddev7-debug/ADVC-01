@@ -26,7 +26,7 @@ namespace ADV01
             #endregion
 
             #region Question03
-            //
+            //What are multiple type parameters? Write Pair<TKey, TValue>. 
             /*
              * Pair<int, string> pair = new Pair<int, string>(1, "Ahmed");
 
