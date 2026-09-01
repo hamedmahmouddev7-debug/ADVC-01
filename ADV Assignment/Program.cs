@@ -198,6 +198,22 @@ s            .Value = "Hello";
              * You can inherit from a generic class by specifying the type parameter when creating the derived class.
              */
             #endregion
+
+            #region Question20
+            // Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support.  
+            /*
+             Cache<int, string> cache = new Cache<int, string>();
+
+             cache.Add(1, "Hello", TimeSpan.FromSeconds(10));
+             
+             Console.WriteLine(cache.Contains(1)); // True
+             
+             Console.WriteLine(cache.Get(1));      // Hello
+             
+             cache.Remove(1);
+             
+             Console.WriteLine(cache.Contains(1)); // False*/
+            #endregion
         }
     }
 }
