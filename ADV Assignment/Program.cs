@@ -114,6 +114,11 @@ s            .Value = "Hello";
             */
             #endregion
 
+            #region Question10
+            // What is the interface constraint? Write an example.
+            //An interface constraint means that the generic type T must implement a specific interface.
+
+            #endregion
         }
     }
 }
