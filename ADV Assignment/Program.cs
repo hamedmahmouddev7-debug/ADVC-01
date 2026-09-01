@@ -72,6 +72,38 @@ namespace ADV01
               */
 
             #endregion
+
+            #region Question06
+            //  What is a generic interface? Write IRepository<T>.  
+
+            /*A generic interface is an interface that uses a type parameter such as T, allowing it to work with different data types.
+             * 
+             IRepository<string> repository;
+             */
+            #endregion
+
+            #region Question07
+            // What is the 'struct' constraint? Write an example. 
+            /* The struct constraint means that the generic type T must be a value type.
+             * Storage<int> s = new Storage<int>();
+             s.Value = 10;
+
+            Console.WriteLine(s.Value);
+             */
+            #endregion
+
+            #region Question08
+            // What is the 'class' constraint? Write an example. 
+
+            /*The class constraint means that the generic type T must be a reference type.
+             
+             Storage<string> s = new Storage<string>();
+s            .Value = "Hello";
+
+              Console.WriteLine(s.Value);
+             
+             */
+            #endregion
         }
     }
 }
