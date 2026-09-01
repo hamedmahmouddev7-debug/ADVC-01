@@ -104,6 +104,16 @@ s            .Value = "Hello";
              
              */
             #endregion
+
+            #region Question09
+            //What is the 'new()' constraint? Write an example. 
+            //The new() constraint means that the generic type T must have a public parameterless constructor.
+            /*Factory<Student> factory = new Factory<Student>();
+
+             Student student = factory.Create();
+            */
+            #endregion
+
         }
     }
 }
