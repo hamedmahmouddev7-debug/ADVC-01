@@ -119,6 +119,17 @@ s            .Value = "Hello";
             //An interface constraint means that the generic type T must implement a specific interface.
 
             #endregion
+
+            #region Question11
+            //What is the base class constraint? Write an example.
+            // A base class constraint means that the generic type T must inherit from a specific base class.
+            //  It is written using where T: BaseClass.
+          
+            /*
+              AnimalContainer<Dog> container = new AnimalContainer<Dog>();
+              container.MakeEat(new Dog());
+             * */
+            #endregion
         }
     }
 }
