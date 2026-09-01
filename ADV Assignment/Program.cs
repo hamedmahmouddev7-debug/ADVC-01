@@ -176,6 +176,14 @@ s            .Value = "Hello";
              *Contravariance allows you to use a base type where a derived type is expected, mainly with generic interfaces and delegates.
              */
             #endregion
+
+            #region Question17
+            // What is the difference between covariance and contravariance?
+            /*
+             * Covariance (out) → I<Derived> can be assigned to I<Base>.
+             * Contravariance (in) → I<Base> can be assigned to I<Derived>.
+            */
+            #endregion
         }
     }
 }
