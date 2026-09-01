@@ -163,7 +163,12 @@ s            .Value = "Hello";
             */
             #endregion
 
-          
+            #region Question15
+            // What is covariance? Explain the 'out' keyword. 
+            /*
+             * Covariance allows you to use a more derived type where a base type is expected, mainly with generic interfaces and delegates.
+             */
+            #endregion
         }
     }
 }
